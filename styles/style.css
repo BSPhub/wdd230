@@ -1,0 +1,59 @@
+
+html {
+    background-image: linear-gradient(90deg, #111a00, #334d00 );
+}
+
+body {
+    font-family: helvetica, 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: aliceblue;
+}
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header {
+    background-color: #446600;
+    color: white;
+    font-size: larger;
+    /* text-align: center;
+    padding: 1.5rem; */
+    border-radius: 1.5em; 
+    box-shadow: 0 0 5px 5px aliceblue;
+}
+
+hr {
+    color: aliceblue;
+}
+
+/* FLEXBOX STUFF */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+/* LINK STYLES */
+a {
+    text-decoration: none;
+}
+
+a:link, :visited{
+    color: aliceblue;
+    background-color: transparent;
+}
+  
+a:hover {
+    color: #ddff99;
+    background-color: transparent;
+}
+  
+a:active {
+    color: #558000;
+    background-color: transparent;
+}
