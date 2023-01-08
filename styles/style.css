@@ -28,6 +28,9 @@ header {
     border-radius: 1.5em; 
     box-shadow: 0 0 7px 7px aliceblue;
 }
+footer {
+    line-height: .2em;
+}
 hr {
     color: aliceblue;
 }
