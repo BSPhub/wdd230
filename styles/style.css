@@ -1,12 +1,16 @@
 
+/* GOOGLE FONT IMPORTED: font-family: 'Roboto', sans-serif; */
+
 html {
     background-image: linear-gradient(90deg, #111a00, #334d00 );
 }
 body {
-    font-family: helvetica, 'Courier New', Courier, monospace;
+    /* font-family: helvetica, 'Courier New', Courier, monospace; */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     line-height: 1.2em;
     color: aliceblue;
+    margin: 0;
 }
 header, nav, main, footer {
     margin: 1.25rem auto;
