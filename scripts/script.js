@@ -5,5 +5,10 @@ const options = {year: 'numeric'};
 document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', options);
 
 // section of code for the SITE LAST UPDATED
-let modified = new Date(document.lastModified);
+// let modified = new Date(document.lastModified);
+// document.getElementById('updated').textContent = modified;
+
+let modified = document.lastModified;
 document.getElementById('updated').textContent = modified;
+
+
