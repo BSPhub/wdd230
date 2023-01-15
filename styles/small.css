@@ -13,8 +13,20 @@ body {
     margin: 0;
 }
 header, nav, main, footer {
-    margin: 1.25rem auto;
+    margin: 0rem auto;
     max-width: 760px;
+}
+h2 {
+    text-align: center;
+}
+header {
+    background-color: #446600;
+    color: white;
+    font-size: larger;
+    padding: 1em;
+    border-radius: none; 
+    box-shadow: 0 0 7px 7px aliceblue;
+    text-align: center;
 }
 nav {
     margin-top: 2.5em;
@@ -23,14 +35,6 @@ nav {
 ul {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-}
-header {
-    background-color: #446600;
-    color: white;
-    font-size: larger;
-    margin-top: 2em;
-    border-radius: 1.5em; 
-    box-shadow: 0 0 7px 7px aliceblue;
 }
 footer {
     line-height: .2em;
@@ -42,14 +46,6 @@ img {
     border-radius: 0.25em;
 }
 
-/* FLEXBOX STUFF ------------------------------------------------------*/
-
-.flex-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2em;
-}
 
 /* LINK STYLES --------------------------------------------------------------*/
 

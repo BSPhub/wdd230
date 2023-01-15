@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 32.5em) {
+    .flex-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2em;
+    }
+    header {
+        border-radius: 1.5em; 
+        margin: 1.5em auto;
+    }
+    h2 {
+        text-align: left;
+    }
+
+}
