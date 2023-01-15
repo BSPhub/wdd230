@@ -5,32 +5,49 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0rem auto;
 }
-.picInfo, #nameTitle, h1, .one, .two, .three {
+.picInfo, .textContent,.one, .two, .three {
     text-align: center;
+}
+.mobile {
+    width: 100%;
+}
+.webBox {
+    border-radius: 20px;
+    background-color: #f0f0f5;
+    padding: .7em;
+    margin-bottom: 1em;
+}
+.titleBox {
+
+}
+a {
+    text-decoration: none;
 }
 
 /* CSS GRID STYLES--------------------------------------------------- */
-.wrapper {
+#wrapper {
    display: grid;
    grid-template-columns: auto auto auto;
    gap: 1em;
 }
-.head {
-    grid-column: 1/4;
+#head {
+    grid-column: 1/ span 3;
     background-color: #001a33;
     color: aliceblue;
 }
-.one {
-    grid-column: 1/span 1;
+#one {
+    grid-column: 1/ span 1;
 }
-.two {
+#two {
     grid-column: 2 / span 1;
 }
-.three {
+#three {
     grid-column: 3 / span 1;
 }
-.foot {
-
+#foot {
+    grid-column: 1/ span 3;
+    background-color: #001a33;
+    color: aliceblue;
 }
 
 

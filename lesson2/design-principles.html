@@ -13,29 +13,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <link href="../styles/normalize.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/mainStyle.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
+    <div id="wrapper">
     <!-- OPEN CSS GRID WRAPPER -->
-        <header class="head">
-            <h1>Design Principles Document</h1>
-            <p id="nameTitle">Brian Parker</p>
+        <header id="head">
+            <h1 class="textContent">Design Principles Document</h1>
+            <p class="textContent">Brian Parker</p>
         </header>
-        <section class="one">
-            <img src="images/nhl.PNG" alt="NHL Website phone viewport" width="" height="">
-            <p class="picInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae itaque eveniet voluptatibus debitis tenetur, magni saepe ex nam amet deserunt fuga accusantium, beatae atque quis dolore obcaecati facilis aliquid. Molestias?</p>
+        <section id="one">
+            <div class="webBox">
+                <div class="titleBox">
+                    <h3>something</h3>
+                </div>
+                <p>NHL</p>
+                <a href="https://www.nhl.com" target="_blank">www.nhl.com</a>
+                <img class="mobile" src="images/nhl.PNG" alt="NHL Website phone viewport">
+                <p class="picInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae itaque eveniet voluptatibus debitis tenetur, magni saepe ex nam amet deserunt fuga accusantium, beatae atque quis dolore obcaecati facilis aliquid. Molestias?</p>
+            </div>    
         </section>
-        <section class="two">
-            <img src="images/green.PNG" alt="Green Chameleon Website phone viewport" width="" height="">
-            <p class="picInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae itaque eveniet voluptatibus debitis tenetur, magni saepe ex nam amet deserunt fuga accusantium, beatae atque quis dolore obcaecati facilis aliquid. Molestias?</p>
+        <section id="two">
+            <div class="webBox">
+                <img class="mobile" src="images/green.PNG" alt="Green Chameleon Website phone viewport">
+                <p class="picInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae itaque eveniet voluptatibus debitis tenetur, magni saepe ex nam amet deserunt fuga accusantium, beatae atque quis dolore obcaecati facilis aliquid. Molestias?</p>
+            </div>
         </section>
-        <section class="three">
-            <img src="images/mr.png" alt="Marius Roosendaal Website phone viewport" width="" height="">
-            <p class="picInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae itaque eveniet voluptatibus debitis tenetur, magni saepe ex nam amet deserunt fuga accusantium, beatae atque quis dolore obcaecati facilis aliquid. Molestias?</p>
+        <section id="three">
+            <div class="webBox">
+                <img class="mobile" src="images/mr.png" alt="Marius Roosendaal Website phone viewport">
+                <p class="picInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae itaque eveniet voluptatibus debitis tenetur, magni saepe ex nam amet deserunt fuga accusantium, beatae atque quis dolore obcaecati facilis aliquid. Molestias?</p>
+            </div>
         </section>
-        <footer class="foot"></footer>
+        <footer id="foot">
+            <p class="textContent">&copy; <span id="date"></span> | Brian Parker | Idaho, USA | Last Updated: <span id="updated"></span></p>
+        </footer>
     <!-- CLOSE CSS GRID WRAPPER -->
     </div> 
+<script src="../scripts/script.js"></script>    
 </body>
 </html>
