@@ -8,20 +8,36 @@ body {
 .picInfo, .textContent,.one, .two, .three {
     text-align: center;
 }
+.picInfo {
+    font-size: 16px;
+}
 .mobile {
     width: 100%;
 }
 .webBox {
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: #f0f0f5;
     padding: .7em;
     margin-bottom: 1em;
 }
 .titleBox {
-
+    background-color: #204060;
+    padding: 1px;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: left;
+    color: aliceblue;
+}
+.titleBox > h2 {
+    padding-left: 10px;
 }
 a {
     text-decoration: none;
+}
+img {
+    padding-top: 1em;
 }
 
 /* CSS GRID STYLES--------------------------------------------------- */
@@ -37,12 +53,14 @@ a {
 }
 #one {
     grid-column: 1/ span 1;
+    margin-left: 1em;
 }
 #two {
     grid-column: 2 / span 1;
 }
 #three {
     grid-column: 3 / span 1;
+    margin-right: 1em;
 }
 #foot {
     grid-column: 1/ span 3;
