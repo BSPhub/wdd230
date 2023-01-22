@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0rem auto;
 }
+
 .picInfo, .textContent,.one, .two, .three {
     text-align: center;
 }
@@ -22,6 +23,7 @@ body {
     margin-bottom: 1em;
 }
 .titleBox {
+    display: flex;
     background-color: #204060;
     padding: 1px;
     margin: 0;
@@ -40,28 +42,41 @@ img {
     padding-top: 1em;
 }
 
+
 /* CSS GRID STYLES--------------------------------------------------- */
+
 #wrapper {
    display: grid;
-   grid-template-columns: auto auto auto;
+   justify-content: center;
+   grid-template-columns: repeat(3, 1fr);
+   max-width: 1200px;
+   margin: 0 auto;
+
+   /* grid-template-rows: repeat(3, 1fr); */
    gap: 1em;
 }
+
 #head {
     grid-column: 1/ span 3;
+    grid-row: 1; 
     background-color: #001a33;
     color: aliceblue;
 }
+
 #one {
     grid-column: 1/ span 1;
     margin-left: 1em;
 }
+
 #two {
     grid-column: 2 / span 1;
 }
+
 #three {
     grid-column: 3 / span 1;
     margin-right: 1em;
 }
+
 #foot {
     grid-column: 1/ span 3;
     background-color: #001a33;
