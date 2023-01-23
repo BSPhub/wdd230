@@ -1,0 +1,8 @@
+
+/* DESKTOP VIEW  ************************* */
+
+@media (min-width: 768px) {
+    nav div a {
+        font-size: 1.3rem;
+    }
+}

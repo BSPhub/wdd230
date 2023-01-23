@@ -1,0 +1,15 @@
+
+/* TABLET VIEW  ************************* */
+
+@media (min-width: 320px) {
+    nav {
+        flex-direction: row;
+        justify-content: end;
+    }
+    nav div a {
+        font-size: 1.1rem;
+    }
+    nav div a:last-child {
+        margin-right: 2.5rem;
+    }
+}
