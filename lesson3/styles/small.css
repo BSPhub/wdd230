@@ -8,7 +8,9 @@
 }
 body {
 	font-size: 16px;
+    min-height: 100vh; 
 	font-family: Roboto, Helvetica, sans-serif;
+    background-color: azure;
 }
 
 /* ************** NAV STYLES ******************* */
@@ -41,5 +43,44 @@ nav div:hover {
 }
 
 /* *********************** CSS GRID elements ********************** */
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* ******************* OTHER CSS **************************** */
+
+header,
+#first,
+#second {
+    margin: .5rem;
+    justify-content: center;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #0C1D36;
+    color: #F9CC0B;
+    padding: 1rem;
+}
+
+.logo {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 40px;
+}
 
 

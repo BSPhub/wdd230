@@ -12,4 +12,32 @@
     nav div a:last-child {
         margin-right: 2.5rem;
     }
+
+    .logo {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 40px;
+    }
+
+    /* *********************** CSS GRID elements ********************** */
+
+    #wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header {
+        grid-column: 1 / span 2;
+    }
+    #first {
+        grid-column: 1 / span 1;
+    }
+    #second {
+        grid-column: 2 / span 1;
+    }
+    footer {
+        grid-column: 1 / span 2;
+    }
+
+
+
+
 }
