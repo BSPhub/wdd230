@@ -4,15 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles/normalize.css" rel="stylesheet">
+    <meta name="Nampa Chamber of Commerce Site" 
+    content="This is a working site for the 'Chamber of Commerce Site' plan. Color Scheme and Typography will be displayed for future use on the site.">
+    <meta name="author" content="Brian Parker">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&display=swap" rel="stylesheet">
 
     <link href="../styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
-    <link href="styles/small.css" rel="stylesheet">
-    <link href="styles/small.css" rel="stylesheet">
-    <title>Document</title>
+    <link href="styles/mid.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <script src="../scripts/script.js" defer></script>
+    <title>Design</title>
 </head>
+
 <body>
-    
+
+    <div id="wrapper-design">
+        <nav>
+            <!-- <li><a id="logo" href="images/favicon.svg"></a></li> -->
+            <div><a href="index.html">Home</a></div>
+            <div><a href="target-audience.html">Audience</a></div>
+            <div><a href="#">Design</a></div>
+        </nav>
+        <header>
+            <h1>Design Page</h1>
+        </header>
+
+        <section id="color">
+            <p class="title">Color Schema</p>
+            <article class="contain_centered">
+                <img src="images/color.PNG" alt="">
+            </article>
+        </section>
+
+        <section id="second">
+            <p class="title">Typography</p>
+            <article class="contain_centered">
+            <p class="russo">Russo One</p>
+            <p class="russo">This will be used for Headings and any title text that need to be promoted above the standard body text.</p>
+            <p class="roboto">Roboto</p>
+            <p class="roboto">This font will be used for the main body of the site.</p>
+            </article>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="date"></span> | Brian Parker | Idaho, USA</p>
+            <p>Last Updated: <span id="updated"></span></p>
+        </footer>
+    <!-- ************ CLOSING WRAPPER ********************* -->
+    </div>
 </body>
 </html>

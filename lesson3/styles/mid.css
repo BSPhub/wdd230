@@ -12,17 +12,28 @@
     nav div a:last-child {
         margin-right: 2.5rem;
     }
-
+/* ************ END NAV ************** */
     .logo {
         height: 15rem;
         width: 15rem;
         border-radius: 40px;
     }
+    .contain_centered {
+        text-align: center;
+        padding: .8rem;
+    }
+
+
 
     /* *********************** CSS GRID elements ********************** */
 
     #wrapper {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+  
+    }
+    nav {
+        grid-column: 1 / span 2;
     }
     header {
         grid-column: 1 / span 2;
@@ -33,11 +44,35 @@
     #second {
         grid-column: 2 / span 1;
     }
+    header,
+    #first,
+    #second {
+        padding: 0 1rem;
+    }
     footer {
         grid-column: 1 / span 2;
+        text-align: center;
     }
+    nav  {
+        align-items: center;
+        max-height: 75px;
+    }
+/* ******************* AUDIENCE PAGE ******************** */
 
+#personas,
+#scenarios {
+    margin: 1rem;
+    justify-content: center;
+}
+#scenarios article ul li {
+    padding: 0.5rem 1rem;
+}
 
+/* ********************* DESIGN PAGE ************************* */
+#color article img {
+    height: 200px;
+    width: 570px;
+}
 
 
 }
