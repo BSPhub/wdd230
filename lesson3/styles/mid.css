@@ -59,20 +59,20 @@
     }
 /* ******************* AUDIENCE PAGE ******************** */
 
-#personas,
-#scenarios {
-    margin: 1rem;
-    justify-content: center;
-}
-#scenarios article ul li {
-    padding: 0.5rem 1rem;
-}
+    #personas,
+    #scenarios {
+        margin: 1rem;
+        justify-content: center;
+    }
+    #scenarios article ul li {
+        padding: 0.5rem 1rem;
+    }
 
 /* ********************* DESIGN PAGE ************************* */
-#color article img {
-    height: 200px;
-    width: 570px;
-}
+    #color article img {
+        height: 200px;
+        width: 570px;
+    }
 
 
 }
