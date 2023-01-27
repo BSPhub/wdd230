@@ -7,4 +7,9 @@
     }
 
     /* *********************** CSS GRID elements ********************** */
+    header,
+    #first,
+    #second {
+        padding: 0 2rem;
+    }
 }

@@ -1,3 +1,6 @@
+/* *********** GOOGLE FONTS************** */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Russo One', sans-serif; */
 
 /* PHONE VIEW  ************************* */
 
@@ -7,9 +10,9 @@
 	box-sizing: border-box;
 }
 body {
+    display: flex;
 	font-size: 16px;
-    min-height: 100vh; 
-	font-family: Roboto, Helvetica, sans-serif;
+	font-family: 'Roboto', Helvetica, sans-serif;
     background-color: azure;
 }
 
@@ -19,9 +22,10 @@ nav {
     flex-direction: column;
     flex: 1 1 auto;
 
-    max-width: 960px;
-    margin: 0 auto;
+    /* max-width: 960px;
+    margin: 0 auto; */
 
+    padding: 0;
     background-color: #0C1D36;
     text-align: center;
     box-shadow: 0 0 30px #333;
@@ -47,6 +51,9 @@ nav div:hover {
 #wrapper {
     max-width: 960px;
     margin: 0 auto;
+    min-height: 100vh; 
+    background-color: #eaf1fa;
+    box-shadow: 0 0 30px #333;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -83,4 +90,48 @@ footer {
     border-radius: 40px;
 }
 
+/* ******************* AUDIENCE PAGE ******************** */
 
+#personas,
+#scenarios {
+    margin: .5rem;
+    justify-content: center;
+}
+#personas {
+
+}
+#personas article img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.left{
+    text-align: left;
+    padding-top: 1em;
+}
+#scenarios article ul li {
+    padding: 0.5rem 1rem;
+}
+
+/* ********************* DESIGN PAGE ************************* */
+
+#wrapper-design {
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 100vh; 
+    background-color: #eaf1fa;
+    box-shadow: 0 0 30px #333;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#color article img {
+    height: 100px;
+    width: 200px;
+}
+.russo {
+    font-family: 'Russo One', sans-serif;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}

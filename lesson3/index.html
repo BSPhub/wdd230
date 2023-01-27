@@ -8,7 +8,9 @@
     content="This is a working site for the 'Chamber of Commerce Site' plan. Color Scheme, Navbar, Typography, pages, and some content will be displayed to reference during development.">
     <meta name="author" content="Brian Parker">
 
-    <!-- AREA FOR GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&display=swap" rel="stylesheet">
 
     <link href="../styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
@@ -20,13 +22,14 @@
 </head>
 
 <body>
-    <nav>
-        <!-- <li><a id="logo" href="images/favicon.svg"></a></li> -->
-        <div><a href="index.html">Home</a></div>
-        <div><a href="target-audience.html">Audience</a></div>
-        <div><a href="design.html">Design</a></div>
-    </nav>
+
     <div id="wrapper">
+        <nav>
+            <!-- <li><a id="logo" href="images/favicon.svg"></a></li> -->
+            <div><a href="index.html">Home</a></div>
+            <div><a href="target-audience.html">Audience</a></div>
+            <div><a href="design.html">Design</a></div>
+        </nav>
         <header>
             <p class="title">Site Name</p>
             <h1>the City of Nampa Chamber of Commerce</h1>
@@ -34,13 +37,17 @@
 
         <section id="first">
             <p class="title">Purpose of this site</p>
+            <article class="contain_centered">
             <p>This site will serve as a meeting place for current and future business owners in the Nampa community. Our goal is to provide insight into the value and growth of this community so that we may grow together and strengthen our bonds.</p>
+            </article>
         </section>
 
         <section id="second">
             <p class="title">Site Logo</p>
+            <article class="contain_centered">
             <img class="logo" src="images/logo-main.png" alt="logo">
             <img class="logo" src="images/favicon.png" alt="favicon">
+            </article>
         </section>
 
         <footer>
