@@ -1,0 +1,22 @@
+
+/* 35rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 40rem) {
+
+
+    nav button {display: none;}
+    
+    nav ul#primaryNav {
+        display: flex;
+        /* use flex on this element to move the Nav on the page: center, flex-end, flex-start */
+        justify-content: flex-start;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+    nav ul li a {
+        /* this gets rid of the line at the top of the a element that shows as the top border of the Nav */
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+    
+    
+    }   /* end of MEDIUM */
